@@ -15,7 +15,6 @@ async function register(params, callback) {
         .catch((error) => {
             return callback(error)
         })
-    
 }
 
 async function login({username, password}, callback) {
