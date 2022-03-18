@@ -11,10 +11,10 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use('/', routes)
 app.use('/admin', routesAdmin)
-app.use('/', routesLectureType)
+app.use('admin/', routesLectureType)
 
 app.use('/uploads', express.static(__dirname +'/uploads'));
-app.use('/', routesTopic)
+app.use('admin/', routesTopic)
 
 
 module.exports = app 
