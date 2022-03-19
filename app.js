@@ -14,7 +14,7 @@ app.use('/admin', routesAdmin)
 app.use('/admin', routesLectureType)
 
 app.use('/uploads', express.static(__dirname +'/uploads'));
-app.use('/admin', routesTopic)
+app.use('/', routesTopic)
 
 
 module.exports = app 

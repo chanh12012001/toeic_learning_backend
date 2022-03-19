@@ -19,6 +19,16 @@ var functions = {
             return res.status(200).json(results);
         });
     },
+
+    getIdLectureTypeByName: (req, res, next) => {
+        var nameLecture = req.headers['name']; 
+        lectureTypeService.getIdLectureTypeByName(nameLecture, (error, results) => {
+            if (error) {
+                return res.status(500).json({error});
+            }
+            return res.status(200).json(results);
+        });
+    },
 }
 
 module.exports = functions

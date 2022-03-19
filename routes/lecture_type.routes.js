@@ -6,4 +6,6 @@ router.post("/createNewLectureType", lectureTypeController.createNewLectureType)
 
 router.delete("/deleteLectureType/:id", lectureTypeController.deleteLectureType);
 
+router.get("/getIdLectureTypeByName", lectureTypeController.getIdLectureTypeByName);
+
 module.exports = router 

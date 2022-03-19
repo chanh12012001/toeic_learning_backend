@@ -22,7 +22,18 @@ async function deleteLectureType(params, callback) {
     })
 }
 
+async function getIdLectureTypeByName(params, callback) {
+    LectureType.findOne({name: params})
+    .then((lecture_type) => {
+        return callback(null, {id: lecture_type.id})
+    })
+    .catch((error) => {
+        return callback(error) 
+    })
+}
+
 module.exports = {
     createNewLectureType,
     deleteLectureType,
+    getIdLectureTypeByName,
 }

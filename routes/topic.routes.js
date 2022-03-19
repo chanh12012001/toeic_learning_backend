@@ -17,4 +17,10 @@ var upload = multer({ storage: storage })
 
 router.post("/createNewTopic",  upload.single('image'), topicController.createNewLectureType);
 
+router.get("/getAllTopics", topicController.getAllTopics);
+
+router.delete("/deleteTopic/:id", topicController.deleteTopic);
+
+router.put("/updateTopic/:id", upload.single('image'), topicController.updateTopic);
+
 module.exports = router 
