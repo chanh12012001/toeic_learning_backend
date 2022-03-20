@@ -1,12 +1,18 @@
+const Topic = require('../models/topic_model');
 const topicService = require('../services/topics.services')
+const cloudinary = require("../config/cloudinary.config")
+const path = require('path')
 
 var functions = {
-    createNewLectureType: (req, res, next) => {
-        topicService.createNewTopic(req.body, req.file, (error, results) => {
+
+    createNewTopic: async (req, res, next) => {
+        var body = req.body
+        var file = req.file
+        topicService.createNewTopic(body, file, (error, results) => {
             if (error) {
                 return res.status(500).json({error});
             }
-            return res.status(200).json(results); 
+            return res.status(200).json(results);
         });
     },
 
@@ -32,13 +38,15 @@ var functions = {
     
     updateTopic: (req, res, next) => {
         var topicId = req.params.id; 
-        var topicBody = req.body;
-        topicService.updateTopic(topicId, topicBody, req.file, (error, results) => {
+        var body = req.body
+        var file = req.file
+        topicService.updateTopic(topicId, body, file, (error, results) => {
             if (error) {
                 return res.status(500).json(error);
             }
             return res.status(200).json(results);
         });
+       
     }
 }
 

@@ -1,4 +1,3 @@
-const bcrypt = require("bcryptjs");
 const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
@@ -13,6 +12,9 @@ const TopicSchema = new Schema({
   image: {
     type: String,
   },
+  cloudinaryId: {
+    type: String,
+  }
 });
 
 // TopicSchema.set("toJSON", {

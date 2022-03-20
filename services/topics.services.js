@@ -1,23 +1,26 @@
 const Topic = require('../models/topic_model')
 const fs = require('fs')
-  
-async function createNewTopic(body, file, callback) {   
-    if (!file) {      
-        const error = new Error('Please upload a file')     
-        error.httpStatusCode = 400      
-        return next("hey error")    
-    }   
-    Topic.create({
-        name: body.name,
-        lectureTypeId: body.lectureTypeId,   
-        image: file.path   
-    })
-    .then((data) => {
-        return callback(null, {message: 'Thêm thành công', topic: data})
+const cloudinary = require("../config/cloudinary.config")
+const { debug } = require('console')
 
-    }).catch((err) => {
+async function createNewTopic(body, file, callback) {   
+  
+    const result = await cloudinary.uploader.upload(file.path, {folder: "topic-images"})
+
+    let topic = new Topic({
+        name: body.name,
+        lectureTypeId: body.lectureTypeId,
+        image: result.secure_url,
+        cloudinaryId: result.public_id,   
+    })
+
+    Topic.create(topic)
+    .then((topic) => {
+        return callback(null, {topic})
+    })
+    .catch((error) => {
         return callback(error)
-    });
+    }) 
 }
 
 async function getAllTopics(params, callback) {
@@ -31,53 +34,50 @@ async function getAllTopics(params, callback) {
 }
 
 async function deleteTopic(params, callback) {
-    Topic.findOne({_id: params})
-    .then((topic) => {
-        Topic.deleteOne({_id: topic._id}).then(() =>{})
-        fs.unlink(topic.image, (err) => {
-            if (err) {
-              console.error(err)
-              return
-            }
-        })
-        return callback(null, {message: 'Thao tác thành công'})
+    Topic.findById(params).then((topic) => {
+        cloudinary.uploader.destroy(topic.cloudinaryId)
     })
+    
+    Topic.deleteOne({_id: params})
+    .then(() => {
+        return callback(null, {message: 'Thao tác thành công'})
+    })      
     .catch((error) => {
         return callback({message: 'Lỗi. Vui lòng thử lại!'})
     })
 }
 
-async function updateTopic(paramsId, topicBody, file ,callback) {
-    
-    if (file != null) {
-        Topic.findOne({_id: paramsId}).then((topic) => {
-            fs.unlink(topic.image, (err) => {
-                if (err) {
-                  console.error(err)
-                  return
-                }
-            })
-        })
-        Topic.findByIdAndUpdate(paramsId, {
-            name: topicBody.name,
-            image: file.path
-        }).then((topic) => {
-            return callback(null, {message: 'Thao tác thành công'})
-        })
-        .catch((_) => {
-            return callback({message: 'Lỗi. Vui lòng thử lại!'})
-        })
-    } else {
-        Topic.findByIdAndUpdate(paramsId, {
-            name: topicBody.name,
-        }).then((topic) => {
-            return callback(null, {message: 'Thao tác thành công'})
-        })
-        .catch((_) => {
-            return callback({message: 'Lỗi. Vui lòng thử lại!'})
-        })
+async function updateTopic(topicId, body, file ,callback) {
+    var result;
+    if (file != undefined || file != null) {
+        result = await cloudinary.uploader.upload(file.path, {folder: "topic-images"})
     }
-    
+    Topic.findById(topicId) 
+    .then((topic) => {  
+        if (file != undefined || file != null) {
+            cloudinary.uploader.destroy(topic.cloudinaryId)
+            const data = {
+                name: body.name || topic.name,
+                image: result.secure_url,
+                cloudinaryId: result.public_id
+            }
+            Topic.findByIdAndUpdate(topicId, data, {new: true}).then((topic) => {         
+                return callback(null, {message: 'Thao tác thành công', topic})
+            })
+        } else {
+            const data = {
+                name: body.name || topic.name,
+                image: topic.image,
+                cloudinaryId: topic.cloudinaryId,
+            }
+            Topic.findByIdAndUpdate(topicId, data, {new: true}).then((topic) => {         
+                return callback(null, {message: 'Thao tác thành công', topic})
+            })
+        }
+    })
+    .catch ((err) => {
+        return callback({message: 'Lỗi. Vui lòng thử lại!'})
+    })
 }
 
 module.exports = {
