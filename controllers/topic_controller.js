@@ -18,7 +18,7 @@ var functions = {
             }
             return res.status(200).json(results);
         });
-    },
+    }, 
 
     deleteTopic: (req, res, next) => {
         var topicId = req.params.id; 

@@ -48,23 +48,36 @@ async function deleteTopic(params, callback) {
 }
 
 async function updateTopic(paramsId, topicBody, file ,callback) {
-    Topic.findOne({_id: paramsId}).then((topic) => {
-        fs.unlink(topic.image, (err) => {
-            if (err) {
-              console.error(err)
-              return
-            }
+    
+    if (file != null) {
+        Topic.findOne({_id: paramsId}).then((topic) => {
+            fs.unlink(topic.image, (err) => {
+                if (err) {
+                  console.error(err)
+                  return
+                }
+            })
         })
-    })
-    Topic.findByIdAndUpdate(paramsId, {
-        name: topicBody.name,
-        image: file.path
-    }).then((topic) => {
-        return callback(null, {message: 'Thao tác thành công'})
-    })
-    .catch((_) => {
-        return callback({message: 'Lỗi. Vui lòng thử lại!'})
-    })
+        Topic.findByIdAndUpdate(paramsId, {
+            name: topicBody.name,
+            image: file.path
+        }).then((topic) => {
+            return callback(null, {message: 'Thao tác thành công'})
+        })
+        .catch((_) => {
+            return callback({message: 'Lỗi. Vui lòng thử lại!'})
+        })
+    } else {
+        Topic.findByIdAndUpdate(paramsId, {
+            name: topicBody.name,
+        }).then((topic) => {
+            return callback(null, {message: 'Thao tác thành công'})
+        })
+        .catch((_) => {
+            return callback({message: 'Lỗi. Vui lòng thử lại!'})
+        })
+    }
+    
 }
 
 module.exports = {
