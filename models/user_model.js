@@ -23,6 +23,9 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
+  authorization: {
+    type: String,
+  }
 });
 
 UserSchema.set("toJSON", {
