@@ -18,7 +18,8 @@ async function register(params, phoneNumber, callback) {
             dateOfBirth: '',
             sex: '',
             email: '',
-            password: params.password    
+            password: params.password,
+            authorization: 'customer'
         })
         .then((data) => {
             const token = tokenController.generateAccessToken(data._id)
