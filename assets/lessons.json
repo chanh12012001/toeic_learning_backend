@@ -1,0 +1,304 @@
+{
+    "lessons" : [
+        {
+            "id": 1,
+            "name": "Contracts",
+            "meaning": "Hợp đồng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648025129/lessons/lesson-images/Marketing_jkn2il.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Marketing",
+            "meaning": "Nghiên cứu thị trường",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648025129/lessons/lesson-images/Contracts_gnvpql.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Warranties",
+            "meaning": "Sự bảo hành",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648025601/lessons/lesson-images/Warranties_idqjaa.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Business Planning",
+            "meaning": "Kế hoạch kinh doanh",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648025733/lessons/lesson-images/Business_Planning_renxqv.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Conferences",
+            "meaning": "Hội nghị",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648025936/lessons/lesson-images/Conferences_wqc29h.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Computers and the Internet",
+            "meaning": "Máy tính và Internet",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648033182/lessons/lesson-images/Computers_and_the_Internet_aeprtc.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Office Technology",
+            "meaning": "Công nghệ cho công sở",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026450/lessons/lesson-images/Office_Technology_vqpmft.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Office Procedures",
+            "meaning": "Quy trình trong công sở",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026451/lessons/lesson-images/Office_Procedures_q0ofip.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Electronics",
+            "meaning": "Điện tử",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026452/lessons/lesson-images/Electronics_m1n6np.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Correspondence",
+            "meaning": "Thư tín thương mại",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026451/lessons/lesson-images/Correspondence_f0ejot.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Job Ads & Recruitment",
+            "meaning": "Quảng cáo tìm người & tuyển dụng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026892/lessons/lesson-images/Job_Ads_Recruitment_sy2x8x.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Apply & Interviewing",
+            "meaning": "Ứng tuyển & Phỏng vấn",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026892/lessons/lesson-images/Apply_Interviewing_fmcijq.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Hiring & Traning",
+            "meaning": "Tuyển dụng & đào tạo",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026893/lessons/lesson-images/Hiring_Traning_o1uk49.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Salaries & Benefits",
+            "meaning": "Lương & Đãi ngộ",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648026892/lessons/lesson-images/Salaries_Benefits_dpup16.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Promotions, Pensions & Awards",
+            "meaning": "Thăng chức, Lương & Thưởng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027379/lessons/lesson-images/Promotions_Pensions_Awards_zrgjne.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Shopping",
+            "meaning": "Mua sắm",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027380/lessons/lesson-images/Shopping_zeoh1e.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Ordering Supplies",
+            "meaning": "Đặt hàng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027380/lessons/lesson-images/Ordering_Supplies_bakunb.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Shipping",
+            "meaning": "Vận chuyển hàng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027379/lessons/lesson-images/Shipping_anzbcd.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Invoices",
+            "meaning": "In hoá đơn",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027380/lessons/lesson-images/Invoices_zr7f1p.png"
+        },
+        {
+            "id": 20,
+            "name": "Inventory",
+            "meaning": "Hàng tồn kho",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027380/lessons/lesson-images/Inventory_ru44cm.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Banking",
+            "meaning": "Ngân hàng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027843/lessons/lesson-images/Banking_yuq8hg.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Accounting",
+            "meaning": "Kế toán",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027843/lessons/lesson-images/Accounting_sgagc8.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Investments",
+            "meaning": "Sự đầu tư",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027843/lessons/lesson-images/Investments_t3c1q9.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Taxes",
+            "meaning": "Thuế",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027843/lessons/lesson-images/Taxes_jontre.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Financial Statements",
+            "meaning": "Bản báo cáo tài chính",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648027844/lessons/lesson-images/Financial_Statements_gbxgrf.jpg"
+        },
+        {
+            "id": 26,
+            "name": "Property & Departments",
+            "meaning": "Bất động sản & căn hộ",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648028342/lessons/lesson-images/Property_Departments_jlureh.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Board Meeting & Committees",
+            "meaning": "Họp hội đồng ban quản trị & Uỷ ban",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648028342/lessons/lesson-images/Board_Meeting_Committees_ze2arl.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Quality Control",
+            "meaning": "Ban quản lý chất lượng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648028342/lessons/lesson-images/Quality_Control_kgjjeg.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Product Development",
+            "meaning": "Phát triển sản phẩm",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648028343/lessons/lesson-images/Product_Development_he8zdv.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Renting & Leasing",
+            "meaning": "Thuê & Cho thuê",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648028342/lessons/lesson-images/Renting_Leasing_r4ea9s.jpg"
+        },
+        {
+            "id": 31,
+            "name": "Selecting A Restaurant",
+            "meaning": "Chọn lựa nhà hàng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032032/lessons/lesson-images/Selecting_A_Restaurant_qbbaol.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Eating Out",
+            "meaning": "Ăn bên ngoài",
+            "imageUrl": "https://res.cloudinary.chttps://res.cloudinary.com/chanhpham/image/upload/v1648032033/lessons/lesson-images/Eating_Out_sfgkql.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Ordering Lunch",
+            "meaning": "Đặt ăn trưa",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032033/lessons/lesson-images/Ordering_Lunch_xknhzw.jpg"
+        },
+        {
+            "id": 34,
+            "name": "Cooking As A Career",
+            "meaning": "Nghề nấu ăn",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032034/lessons/lesson-images/Cooking_As_A_Career_dkxxg1.png"
+        },
+        {
+            "id": 35,
+            "name": "Events",
+            "meaning": "Sự kiện",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032034/lessons/lesson-images/Events_vebphl.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Gerneral Travel",
+            "meaning": "Du lịch tổng quan",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032381/lessons/lesson-images/Gerneral_Travel_fmqbok.jpg"
+        },
+        {
+            "id": 37,
+            "name": "Airlines",
+            "meaning": "Đường/Hảng hàng không",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032382/lessons/lesson-images/Airlines_yphwxp.jpg"
+        },
+        {
+            "id": 38,
+            "name": "Trains",
+            "meaning": "Tàu điện",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032382/lessons/lesson-images/Trains_tgqy6s.jpg"
+        },
+        {
+            "id": 39,
+            "name": "Hotels",
+            "meaning": "Khách sạn",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032381/lessons/lesson-images/Hotels_q4ryxx.jpg"
+        },
+        {
+            "id": 40,
+            "name": "Car Rentals",
+            "meaning": "Thuê xe hơi",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032381/lessons/lesson-images/Car_Rentals_xjrsqw.jpg"
+        },
+        {
+            "id": 41,
+            "name": "Movies",
+            "meaning": "Phim",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032716/lessons/lesson-images/Movies_ef96yp.jpg"
+        },
+        {
+            "id": 42,
+            "name": "Theater",
+            "meaning": "Rạp hát",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032717/lessons/lesson-images/Theater_fmquey.jpg"
+        },
+        {
+            "id": 43,
+            "name": "Music",
+            "meaning": "Âm nhạc",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032716/lessons/lesson-images/Music_tdu3qs.jpg"
+        },
+        {
+            "id": 44,
+            "name": "Museums",
+            "meaning": "Bảo tàng",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032716/lessons/lesson-images/Museums_muhoez.jpg"
+        },
+        {
+            "id": 45,
+            "name": "Media",
+            "meaning": "Truyền thông",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648032716/lessons/lesson-images/Media_ri1w56.jpg"
+        },
+        {
+            "id": 46,
+            "name": "Doctor's Office",
+            "meaning": "Văn phòng Bác sĩ",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648033078/lessons/lesson-images/Doctor_s_Office_pdbbkn.jpg"
+        },
+        {
+            "id": 47,
+            "name": "Dentist's Office",
+            "meaning": "Văn phòng Nha Sĩ",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648033077/lessons/lesson-images/Dentist_s_Office_g90uzw.jpg"
+        },
+        {
+            "id": 48,
+            "name": "Health",
+            "meaning": "Sức khoẻ",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648033078/lessons/lesson-images/Health_cy5lxm.jpg"
+        },
+        {
+            "id": 49,
+            "name": "Hopitals",
+            "meaning": "Bệnh viện",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648033078/lessons/lesson-images/Hopitals_awexbo.jpg"
+        },
+        {
+            "id": 50,
+            "name": "Pharmacy",
+            "meaning": "Ngành dược",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648033078/lessons/lesson-images/Pharmacy_oswcgd.jpg"
+        }
+    ]
+}

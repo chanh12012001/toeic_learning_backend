@@ -1,7 +1,5 @@
 const Topic = require('../models/topic_model')
-const fs = require('fs')
 const cloudinary = require("../config/cloudinary.config")
-const { debug } = require('console')
 
 async function createNewTopic(body, file, callback) {   
   

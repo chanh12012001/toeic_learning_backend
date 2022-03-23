@@ -10,7 +10,7 @@ var functions = {
         });
     },
 
-     deleteLectureType: (req, res, next) => {
+    deleteLectureType: (req, res, next) => {
         var typeId = req.params.id; 
         lectureTypeService.deleteLectureType(typeId, (error, results) => {
             if (error) {
