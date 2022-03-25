@@ -1,0 +1,172 @@
+{
+    "vocabularies": [
+        {
+            "id": 1,
+            "name": "abide by",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648132291/lessons/images-word/abide_by_ulvict.jpg",
+            "phonetic": "/ə'baid/",
+            "partOfSpeech": "verb",
+            "meaning": "tôn trọng, tuân theo, giữ (lời)",
+            "examples": {
+                "example": "The two parties agreed to abide by the judge's decision",
+                "meaning": "Hai bên đã đồng ý tuân theo quyết định của tòa án."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039840/lessons/audio-600-word-toeic/abide_by_w9phna.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 2,
+            "name": "agreement",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648132701/lessons/images-word/agreement_ngpg2e.jpg",
+            "phonetic": "/ə'gri:mənt/",
+            "partOfSpeech": "noun",
+            "meaning": "hợp đồng, giao kèo, sự đồng ý/thỏa thuận với nhau",
+            "examples": {
+                "example": "According to the agreement, the caterer will also supply the flowers for the event",
+                "meaning": "Theo như thỏa thuận, nhà cung cấp lương thực thực phẩm cũng sẽ cung cấp hoa cho sự kiện."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039879/lessons/audio-600-word-toeic/agreement_wkgfuq.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 3,
+            "name": "assurance",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133008/lessons/images-word/assurance_smilus.jpg",
+            "phonetic": "/ə'ʃuərəns/",
+            "partOfSpeech": "noun",
+            "meaning": "sự cam đoan, bảo đảm, chắc chắn; sự tin chắc, tự tin",
+            "examples": {
+                "example": "The sales associate gave his assurance that the missing keyboard would be replaced the next day.",
+                "meaning": "Đối tác bán hàng cam đoan rằng ngày mai bàn phím lỗi sẽ được thay."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039942/lessons/audio-600-word-toeic/assurance_j1l2fo.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 4,
+            "name": "cancellation",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133011/lessons/images-word/cancellation_avblzh.jpg",
+            "phonetic": "/,kænse'leiʃn/",
+            "partOfSpeech": "noun",
+            "meaning": "sự bãi bỏ, hủy bỏ",
+            "examples": {
+                "example": "The cancelation of her flight caused her problems for the rest of the week",
+                "meaning": "Việc hủy chuyến bay đã gây cho cô ấy nhiều vấn đề trong những ngày còn lại của tuần."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039977/lessons/audio-600-word-toeic/cancellation_ucwsen.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 5,
+            "name": "determine",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133007/lessons/images-word/determine_f1we8q.jpg",
+            "phonetic": "/di'tə:min/",
+            "partOfSpeech": "verb",
+            "meaning": "quyết định, xác định, định rõ; quyết tâm, kiên quyết",
+            "examples": {
+                "example": "After reading the contract, I was still unable to detemine if our company was liable for back wages.",
+                "meaning": "Sau khi đọc hợp đồng, tôi vẫn không thể biết được liệu rằng công ty của chúng tôi có phải chịu trách nhiệm hoàn trả lại lương không."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039993/lessons/audio-600-word-toeic/determine_nupfm5.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 6,
+            "name": "engage",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/engage_gsypzn.jpg",
+            "phonetic": "/in'geidʤ/",
+            "partOfSpeech": "verb",
+            "meaning": "(v)Tham gia, cam kết, (n)sự hứa hẹn, hứa hôn",
+            "examples": {
+                "example": "He engaged us in a fascinating discussion about current business law.",
+                "meaning": "Anh ấy cùng chúng tôi thảo luận sôi nổi về luật kinh doanh hiện hành."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039998/lessons/audio-600-word-toeic/engage_bphcad.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 7,
+            "name": "establish",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/establish_rfckwf.jpg",
+            "phonetic": "/is'tæbliʃ/",
+            "partOfSpeech": "verb",
+            "meaning": "thiết lập, thành lập; xác minh, chứng minh, củng cố",
+            "examples": {
+                "example": "The merger of the two company established a powerful new corporation.",
+                "meaning": "Sự liên kết giữa 2 công ty tạo nên một tập đoàn kinh tế hùng mạnh."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039999/lessons/audio-600-word-toeic/establish_quz0er.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 8,
+            "name": "obligate",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/obligate_du9iqi.jpg",
+            "phonetic": "/'ɔbligeit/",
+            "partOfSpeech": "verb",
+            "meaning": "bắt buộc, ép buộc",
+            "examples": {
+                "example": "The contractor was obligated by the contract to work 40 hours a week.",
+                "meaning": "Nhà thầu buộc phải làm việc 40 tiếng mỗi tuần."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040018/lessons/audio-600-word-toeic/obligate_kyzg07.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 9,
+            "name": "party",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/party_xy9z3a.jpg",
+            "phonetic": "/'pɑ:ti//",
+            "partOfSpeech": "noun",
+            "meaning": "đảng, phái, đội, nhóm; người tham dự/tham gia; buổi liên hoan, buổi tiệc",
+            "examples": {
+                "example": "The parties agreed to settlement in their contract dispute.",
+                "meaning": "Các bên đã nhất trí đi đến một thỏa thuận trong hợp đồng gây tranh cãi của họ."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040023/lessons/audio-600-word-toeic/party_ff83fi.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 10,
+            "name": "provision",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/provision_gqd9io.jpg",
+            "phonetic": "/provision/",
+            "partOfSpeech": "noun",
+            "meaning": "sự dự liệu, dự trữ, dự phòng, cung cấp; điều khoản",
+            "examples": {
+                "example": "The father made provision for his children through his will.",
+                "meaning": "Người cha đã truyền lại di chúc cho những đứa con của mình."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040029/lessons/audio-600-word-toeic/provision_z4eyxj.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 11,
+            "name": "resolve",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648134383/lessons/images-word/resolve_pidrw9.jpg",
+            "phonetic": "/ri'zɔlv/",
+            "partOfSpeech": "verb, noun",
+            "meaning": "(v) giải quyết, (n) sự kiên quyết / sự tin chắc",
+            "examples": {
+                "example": "The manager resolved to clean out all the files at the end of the week.",
+                "meaning": "Cuối tuần, người quản lý đã quyết định xóa sạch tất cả các dữ liệu."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040036/lessons/audio-600-word-toeic/resolve_qv6z7y.mp3",
+            "lessonId": 1
+        },
+        {
+            "id": 12,
+            "name": "specific",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648134383/lessons/images-word/specific_ficetv.jpg",
+            "phonetic": "/spi'sifik/",
+            "partOfSpeech": "adjective",
+            "meaning": "riêng biệt, cụ thể, đặc trưng; rõ ràng, rành mạch",
+            "examples": {
+                "example": "The customer's specific complaint was not addressed in his e-mail.",
+                "meaning": "Khiếu nại cụ thể của khách hàng đã không được giải quyết trong Email gửi anh ấy."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040044/lessons/audio-600-word-toeic/specific_kiqmsr.mp3",
+            "lessonId": 1
+        }
+    ]
+}

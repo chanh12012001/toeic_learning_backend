@@ -5,6 +5,7 @@ const routesLectureType = require('./routes/lecture_type.routes')
 const routesTopic = require('./routes/topic.routes')
 const routesVideoInfo = require('./routes/video_info.routes')
 const routesLesson = require('./routes/lesson.routes')
+const routesVocabulary = require('./routes/vocabulary.routes')
 
 const app = express()
 
@@ -23,5 +24,7 @@ app.use('/', routesVideoInfo)
 app.use('/', routesVideoInfo)
 
 app.use('/', routesLesson)
+
+app.use('/', routesVocabulary)
 
 module.exports = app 
