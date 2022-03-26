@@ -3,6 +3,7 @@
         {
             "id": 1,
             "name": "abide by",
+            "definition": "to accept and act according to a law, an agreement",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648132291/lessons/images-word/abide_by_ulvict.jpg",
             "phonetic": "/ə'baid/",
             "partOfSpeech": "verb",
@@ -17,6 +18,7 @@
         {
             "id": 2,
             "name": "agreement",
+            "definition": "an arrangement, a promise or a contract made with somebody",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648132701/lessons/images-word/agreement_ngpg2e.jpg",
             "phonetic": "/ə'gri:mənt/",
             "partOfSpeech": "noun",
@@ -31,6 +33,7 @@
         {
             "id": 3,
             "name": "assurance",
+            "definition": "a statement that something will certainly be true or will certainly happen",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133008/lessons/images-word/assurance_smilus.jpg",
             "phonetic": "/ə'ʃuərəns/",
             "partOfSpeech": "noun",
@@ -45,6 +48,7 @@
         {
             "id": 4,
             "name": "cancellation",
+            "definition": "a decision to stop something that has already been arranged from happening",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133011/lessons/images-word/cancellation_avblzh.jpg",
             "phonetic": "/,kænse'leiʃn/",
             "partOfSpeech": "noun",
@@ -59,6 +63,7 @@
         {
             "id": 5,
             "name": "determine",
+            "definition": "to discover the facts about something",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133007/lessons/images-word/determine_f1we8q.jpg",
             "phonetic": "/di'tə:min/",
             "partOfSpeech": "verb",
@@ -73,6 +78,7 @@
         {
             "id": 6,
             "name": "engage",
+            "definition": "to become involved in, to participate",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/engage_gsypzn.jpg",
             "phonetic": "/in'geidʤ/",
             "partOfSpeech": "verb",
@@ -87,6 +93,7 @@
         {
             "id": 7,
             "name": "establish",
+            "definition": "to start or create an organization, a system",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/establish_rfckwf.jpg",
             "phonetic": "/is'tæbliʃ/",
             "partOfSpeech": "verb",
@@ -101,6 +108,7 @@
         {
             "id": 8,
             "name": "obligate",
+            "definition": "to bind legally or morally",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/obligate_du9iqi.jpg",
             "phonetic": "/'ɔbligeit/",
             "partOfSpeech": "verb",
@@ -115,6 +123,7 @@
         {
             "id": 9,
             "name": "party",
+            "definition": "one of the people or groups of people involved in a legal agreement",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/party_xy9z3a.jpg",
             "phonetic": "/'pɑ:ti//",
             "partOfSpeech": "noun",
@@ -129,6 +138,7 @@
         {
             "id": 10,
             "name": "provision",
+            "definition": "a condition or an arrangement in a legal document",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648133668/lessons/images-word/provision_gqd9io.jpg",
             "phonetic": "/provision/",
             "partOfSpeech": "noun",
@@ -143,6 +153,7 @@
         {
             "id": 11,
             "name": "resolve",
+            "definition": "to find an acceptable solution to a problem",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648134383/lessons/images-word/resolve_pidrw9.jpg",
             "phonetic": "/ri'zɔlv/",
             "partOfSpeech": "verb, noun",
@@ -157,6 +168,7 @@
         {
             "id": 12,
             "name": "specific",
+            "definition": "detailed abd exact",
             "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648134383/lessons/images-word/specific_ficetv.jpg",
             "phonetic": "/spi'sifik/",
             "partOfSpeech": "adjective",
@@ -167,6 +179,186 @@
             },
             "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040044/lessons/audio-600-word-toeic/specific_kiqmsr.mp3",
             "lessonId": 1
+        },
+        {
+            "id": 13,
+            "name": "attract",
+            "definition": "to draw by appeal",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262855/lessons/images-word/attract_d130yy.jpg",
+            "phonetic": "/ə'trækt/",
+            "partOfSpeech": "verb",
+            "meaning": "hấp dẫn, lôi cuốn, thu hút",
+            "examples": {
+                "example": "The display attracted a number of people at the convention.",
+                "meaning": "Việc trưng bày đã thu hút được một số người tại hội nghị."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039948/lessons/audio-600-word-toeic/attract_kyjshm.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 14,
+            "name": "compare",
+            "definition": "to examine people or things to see how they are similar and how they are different",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/compare_uq9fyu.jpg",
+            "phonetic": "/kəm'peə/",
+            "partOfSpeech": "verb",
+            "meaning": "so sánh, đối chiếu",
+            "examples": {
+                "example": "Once the customer compared the two products, her choice was easy.",
+                "meaning": "Khi mà người khách hàng được so sánh 2 sản phẩm, sự lựa chọn của cô ta sẽ dễ dàng hơn."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039984/lessons/audio-600-word-toeic/compare_ir7tqf.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 15,
+            "name": "competition",
+            "definition": "a situation in which people or organizations compete with each other for something that not everyone can have",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262855/lessons/images-word/competition_sugvov.jpg",
+            "phonetic": "/,kɔmpi'tiʃn/",
+            "partOfSpeech": "verb",
+            "meaning": "‹sự/cuộc› cạnh tranh, tranh giành, thi đấu",
+            "examples": {
+                "example": "In the competition for afternoon dinners, Hector's has come out on top.",
+                "meaning": "Trong cuộc thi của các quán ăn chiều, của hàng Hector đã được xếp hạng nhất."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039984/lessons/audio-600-word-toeic/competition_fwhggy.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 16,
+            "name": "consume",
+            "definition": "to use something, especially fuel, engery or time",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262855/lessons/images-word/consume_irixjw.jpg",
+            "phonetic": "/kən'sju:m/",
+            "partOfSpeech": "verb",
+            "meaning": "tiêu thụ, tiêu dùng",
+            "examples": {
+                "example": "The printer consumes more toner than the downstairs printer.",
+                "meaning": "Cái máy in ngốn nhiều ống mực hơn là cái máy in ở dưới nhà."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039988/lessons/audio-600-word-toeic/consume_jpdbqq.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 17,
+            "name": "convince",
+            "definition": "to make somebody / yourselft believe that something is true",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/convince_x1sjjq.jpg",
+            "phonetic": "/kən'vins/",
+            "partOfSpeech": "verb",
+            "meaning": "Thuyết phục",
+            "examples": {
+                "example": "He convinced me that he was right.",
+                "meaning": "Anh ấy đã thuyết phục tôi rằng anh ấy đã đúng."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039988/lessons/audio-600-word-toeic/convince_vakj0s.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 18,
+            "name": "currently",
+            "definition": "at the present time",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/currently_vxyfuu.jpg",
+            "phonetic": "/ˈkʌrəntli/",
+            "partOfSpeech": "adverb",
+            "meaning": "hiện thời, hiện nay, lúc này",
+            "examples": {
+                "example": "Currently, customers are demanding big discounts for bulk orders.",
+                "meaning": "Hiện nay, khách hàng đang đòi hỏi những khoản giảm giá nhiều cho những đơn hàng lớn."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039989/lessons/audio-600-word-toeic/currently_oqgtdu.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 19,
+            "name": "fad",
+            "definition": "something that people are interested in for only a short period of time.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/fad_jc2kso.jpg",
+            "phonetic": "/fæd/",
+            "partOfSpeech": "noun",
+            "meaning": "mốt nhất thời, sự thích thú tạm thời; dở hơi, gàn dở",
+            "examples": {
+                "example": "The mini dress was a fad once thought to be finished, but now it is making a comeback.",
+                "meaning": "Váy ngắn là mốt tạm thời mỗi khi ý tưởng bị hết, nhưng hiện giờ nó đang quay trở lại."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040002/lessons/audio-600-word-toeic/fad_bod72s.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 20,
+            "name": "inspiration",
+            "definition": "a thing or person that arouses a feeling",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/inspiration_vqiyau.jpg",
+            "phonetic": "/,inspə'reiʃn/",
+            "partOfSpeech": "noun",
+            "meaning": "‹sự/người/vật› truyền cảm hứng, gây cảm hứng",
+            "examples": {
+                "example": "His work is an inspiration to the marketing department.",
+                "meaning": "Công việc của anh ta là một nguồn cảm hứng cho bộ phận tiếp thị."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040010/lessons/audio-600-word-toeic/inspiration_yezxsn.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 21,
+            "name": "market",
+            "definition": "to advertise and offer a product for sale",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/market_acm54k.jpg",
+            "phonetic": "/'mɑ:kit/",
+            "partOfSpeech": "verb",
+            "meaning": "thị trường, chợ, nơi mua bán sản phẩm...",
+            "examples": {
+                "example": "The market for brightly colored clothing was brisk last year, but it's moving sluggishly this year.",
+                "meaning": "Thị trường của trang phục màu sắc sặc sỡ rất phát đạt vào năm ngoái, nhưng nó lại chuyển động uể oải trong năm nay."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040015/lessons/audio-600-word-toeic/market_e7en6p.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 22,
+            "name": "persuasion",
+            "definition": "the power to influence, a deep conviction or belief.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/persuasion_pd1gmm.jpg",
+            "phonetic": "/pə'sweiʤn/",
+            "partOfSpeech": "noun",
+            "meaning": "‹sự› thuyết phục, làm cho tin (chú ý: persuade > convince)",
+            "examples": {
+                "example": "The seminar teaches techniques of persuasion to increase sales.",
+                "meaning": "Hội thảo giảng dạy những kỹ thuật thuyết phục để gia tăng doanh số."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040024/lessons/audio-600-word-toeic/persuasion_tz1zdp.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 23,
+            "name": "productive",
+            "definition": "making goods or growing crops.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262856/lessons/images-word/productive_vhifep.jpg",
+            "phonetic": "/prəˈdʌktɪv/",
+            "partOfSpeech": "adjective",
+            "meaning": "sản xuất, sinh sản; sinh lợi nhiều, có hiệu quả",
+            "examples": {
+                "example": "The unproductive sales meeting brought many staff complaints.",
+                "meaning": "Hội nghị kinh doanh phi lợi nhuận đã làm cho nhiều nhân viên phàn nàn."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040027/lessons/audio-600-word-toeic/productive_y924yy.mp3",
+            "lessonId": 2
+        },
+        {
+            "id": 24,
+            "name": "satisfaction",
+            "definition": "the good feeling that you have when you have achieved something.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648262857/lessons/images-word/satisfaction_tpafqx.jpg",
+            "phonetic": "/,sætis'fækʃn/",
+            "partOfSpeech": "noun",
+            "meaning": "sự làm thỏa mãn, sự hài lòng",
+            "examples": {
+                "example": "Your satisfaction is guaranteed or you'll get your money back.",
+                "meaning": "Sự hài lòng của bạn được bảo đảm, hoặc là bạn sẽ được nhận lại tiền của mình."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040038/lessons/audio-600-word-toeic/satisfaction_n5auth.mp3",
+            "lessonId": 2
         }
     ]
 }
