@@ -207,7 +207,7 @@
                 "example": "Once the customer compared the two products, her choice was easy.",
                 "meaning": "Khi mà người khách hàng được so sánh 2 sản phẩm, sự lựa chọn của cô ta sẽ dễ dàng hơn."
             },
-            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039984/lessons/audio-600-word-toeic/compare_ir7tqf.mp3",
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648284431/lessons/audio-600-word-toeic/compare_jn0ggj.mp3",
             "lessonId": 2
         },
         {
@@ -359,6 +359,186 @@
             },
             "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040038/lessons/audio-600-word-toeic/satisfaction_n5auth.mp3",
             "lessonId": 2
+        },
+        {
+            "id": 25,
+            "name": "characteristic",
+            "definition": "very typical of something or of somebody's character.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/characteristic_mw2zuf.jpg",
+            "phonetic": "/,kæriktə'ristik/",
+            "partOfSpeech": "adjective, noun",
+            "meaning": "(adj) đặc thù, (n) đặc trưng, đặc điểm, đặc thù, cá biệt",
+            "examples": {
+                "example": "One characteristic of the store is that it is slow in mailing refund checks.",
+                "meaning": "Một đặc điểm của cửa hàng là nó chậm chạp trong việc gửi hóa đơn hoàn trả."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039979/lessons/audio-600-word-toeic/characteristic_d8m2es.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 26,
+            "name": "consequence",
+            "definition": "a result of something that has happened.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/consequence_vtdxqz.jpg",
+            "phonetic": "/'kɔnsikwəns/",
+            "partOfSpeech": "noun",
+            "meaning": "kết quả, hậu quả, hệ quả; tầm quan trọng, tính trọng đại",
+            "examples": {
+                "example": "As a consequence of not having seen a dentist for several years, Lydia had several cavities.",
+                "meaning": "Là hậu quả của việc không đi khám nha sĩ trong vài năm, Lydia đã bị vài răng sâu rỗng."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039987/lessons/audio-600-word-toeic/consequence_qlndzh.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 27,
+            "name": "consider",
+            "definition": "to think about something carefully.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/consider_ywbqhb.jpg",
+            "phonetic": "/kən'sidə/",
+            "partOfSpeech": "verb",
+            "meaning": "cân nhắc, suy xét, suy nghĩ (một cách cẩn thận); lưu ý, quan tâm",
+            "examples": {
+                "example": "After considering all the options, Della decided to buy a used car.",
+                "meaning": "Sau khi cân nhắc tất cả sự chọn lựa, Della đã quyết định mua chiếc xe cũ."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039987/lessons/audio-600-word-toeic/consider_n7jnto.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 28,
+            "name": "cover",
+            "definition": "to include something; to deal with something",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/cover_x0ugwx.jpg",
+            "phonetic": "/'kʌvə/",
+            "partOfSpeech": "verb",
+            "meaning": "che, phủ, trùm, bọc; bao gồm",
+            "examples": {
+                "example": "Will my medical insurance cover this surgery?",
+                "meaning": "Hợp đồng bảo hiểm y tế của tôi liệu có bao gồm cho ca phẫu thuật này không?"
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039989/lessons/audio-600-word-toeic/cover_sadsqw.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 29,
+            "name": "expiration",
+            "definition": "an ending of the period of time when an official document can be used.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/expired_db9drf.jpg",
+            "phonetic": "/,ekspaiə'reiʃn/",
+            "partOfSpeech": "noun",
+            "meaning": "sự mãn hạn, sự hết hạn, sự kết thúc",
+            "examples": {
+                "example": "Have you checked the expriration date on this yogurt?",
+                "meaning": "Anh đã kiểm tra hạn sử dụng của món sữa chua này chưa?"
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040001/lessons/audio-600-word-toeic/expiration_regrfw.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 30,
+            "name": "frequently",
+            "definition": "often.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/consider_ywbqhb.jpg",
+            "phonetic": "/ˈfriːkwəntli/",
+            "partOfSpeech": "adverb",
+            "meaning": "thường xuyên, một cách thường xuyên",
+            "examples": {
+                "example": "Appliances frequently come with a one-year warranty.",
+                "meaning": "Trang thiết bị thường có bảo hành một năm."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039987/lessons/audio-600-word-toeic/consider_n7jnto.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 31,
+            "name": "imply",
+            "definition": "to suggest that something is true without saying so directly.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/imply_rge4v1.jpg",
+            "phonetic": "/im'plai/",
+            "partOfSpeech": "verb",
+            "meaning": "ngụ ý, hàm ý, ẩn ý, ý nói",
+            "examples": {
+                "example": "The guarantee on the Walkman implied that all damages were covered under warranty for one year.",
+                "meaning": "Giấy bảo đảm theo máy nghe nhạc Walkman đã ngụ ý rằng mọi hư hỏng đều được bao gồm trong thời hạn bảo hành là 1 năm."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040008/lessons/audio-600-word-toeic/imply_oc0tud.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 32,
+            "name": "promise",
+            "definition": "to tell somebody that you will definitely do or not do something.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/promise_iefanf.jpg",
+            "phonetic": "/promise/",
+            "partOfSpeech": "verb, noun",
+            "meaning": "(n) hứa hẹn, cam đoan, bảo đảm; (v) hứa",
+            "examples": {
+                "example": "The sales associate promised that our new mattress would arrive by noon on Saturday.",
+                "meaning": "Người cộng tác kinh doanh hứa rằng tấm nệm mới của chúng ta sẽ đến trước trưa thứ Bảy."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040028/lessons/audio-600-word-toeic/promise_kunovi.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 33,
+            "name": "protect",
+            "definition": "to make sure that somebody / something is not harmed, injured.",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284485/lessons/images-word/protect_vt8iv9.jpg",
+            "phonetic": "/protect/",
+            "partOfSpeech": "verb",
+            "meaning": "bảo vệ, bảo hộ, che chở",
+            "examples": {
+                "example": "Consumer laws are designed to protect the public against unscrupulous vendors.",
+                "meaning": "Luật tiêu dùng được thiết kế để bảo vệ công chúng trước những kẻ bán hàng vô lương tâm."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040029/lessons/audio-600-word-toeic/protect_qhuunm.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 34,
+            "name": "reputation",
+            "definition": "the opinion that people have about what s.b/s.th is like, based on what has happened in the past",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284486/lessons/images-word/reputation_wlxabm.jpg",
+            "phonetic": "/,repju:'teiʃn/",
+            "partOfSpeech": "noun",
+            "meaning": "danh tiếng, thanh danh, tiếng (tốt của nhân vật)",
+            "examples": {
+                "example": "The company knew that the reputation of its products was the most important asset it had.",
+                "meaning": "Công ty biết rằng tiếng tăm sản phẩm của họ là thứ tài sản quan trọng nhất mà họ có."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040035/lessons/audio-600-word-toeic/reputation_fcptdx.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 35,
+            "name": "require",
+            "definition": "to need something; to depend on s.b / s.th",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284486/lessons/images-word/require_ifza8n.jpg",
+            "phonetic": "/ri'kwaiə/",
+            "partOfSpeech": "verb",
+            "meaning": "đòi hỏi, yêu cầu, cần phải",
+            "examples": {
+                "example": "The law requires that each item clearly display the warranty information.",
+                "meaning": "Luật pháp yêu cầu mỗi món hàng trình bày rõ ràng thông tin về bảo hành."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040035/lessons/audio-600-word-toeic/require_nouugf.mp3",
+            "lessonId": 3
+        },
+        {
+            "id": 36,
+            "name": "variety",
+            "definition": "different sorts of the same thing",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648284486/lessons/images-word/variety_vacxv1.jpg",
+            "phonetic": "/və'raiəti/",
+            "partOfSpeech": "noun",
+            "meaning": "đa dạng, nhiều thứ/loại/vẻ khác nhau",
+            "examples": {
+                "example": "There's a variety of standard terms that you'll find in warranties.",
+                "meaning": "Có nhiều điều khoản tiêu chuẩn mà bạn sẽ thấy ở trong các phiếu bảo hành."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040053/lessons/audio-600-word-toeic/variety_ngccpg.mp3",
+            "lessonId": 3
         }
     ]
 }
