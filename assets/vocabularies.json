@@ -539,6 +539,186 @@
             },
             "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040053/lessons/audio-600-word-toeic/variety_ngccpg.mp3",
             "lessonId": 3
+        },
+        {
+            "id": 37,
+            "name": "address",
+            "definition": "a formal speech that is made in front of an audience",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433412/lessons/images-word/address_lpzo1k.jpg",
+            "phonetic": "/ə'dres/",
+            "partOfSpeech": "noun, verb",
+            "meaning": "(n) địa chỉ, diễn văn, bài nói chuyện, tác phong nói chuyện, sự khôn khéo; (v) trình bày",
+            "examples": {
+                "example": "Marco's business plan addresses the needs of small business owners.",
+                "meaning": "Kế hoạch kinh doanh của Marco nhằm vào nhu cầu của những chủ doanh nghiệp nhỏ."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039846/lessons/audio-600-word-toeic/address_hfqzog.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 38,
+            "name": "avoid",
+            "definition": "to prevent something bad from happening",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433412/lessons/images-word/avoid_lzq2yy.jpg",
+            "phonetic": "/ə'vɔid/",
+            "partOfSpeech": "verb",
+            "meaning": "tránh, tránh khỏi; hủy bỏ, bác bỏ",
+            "examples": {
+                "example": "To avoid going out of business, owners should prepare a proper business plan.",
+                "meaning": "Nhằm tránh lụn bại việc làm ăn, những người chủ nên chuẩn bị một kế ho."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039961/lessons/audio-600-word-toeic/avoid_jt2ven.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 39,
+            "name": "demonstrate",
+            "definition": "to show something clearly by giving proof or evidence",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433412/lessons/images-word/demonstrate_ek8bga.jpg",
+            "phonetic": "/'demənstreit/",
+            "partOfSpeech": "verb",
+            "meaning": "bày tỏ, biểu lộ, cho thấy; chứng minh, giải thích",
+            "examples": {
+                "example": "The professor demonstrated through a case study that a business plan can impress a lender.",
+                "meaning": "Vị giáo sư đã chứng minh thông qua bài học tình huống là một kế hoạch kinh doanh có thể gây ấn tượng với một người cho vay."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039992/lessons/audio-600-word-toeic/demonstrate_nfz7ya.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 40,
+            "name": "develop",
+            "definition": "to gradually grow or become bigger, more advanced",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433412/lessons/images-word/develop_sqkgtc.jpg",
+            "phonetic": "/di'veləp/",
+            "partOfSpeech": "verb",
+            "meaning": "phát triển, tiến triển, triển khai, mở rộng",
+            "examples": {
+                "example": "Lily developed her ideas into a business plan by taking a class at the community college.",
+                "meaning": "Lily đã phát triển ý tưởng của cô ta vào kế hoạch kinh doanh bằng cách tham dự một lớp học tại trường cao đẳng cộng đồng."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039993/lessons/audio-600-word-toeic/develop_w31qbd.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 41,
+            "name": "evaluate",
+            "definition": "to form an opinion of amount, value or quality of something",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433412/lessons/images-word/evaluate_pvifev.jpg",
+            "phonetic": "/i'væljueit/",
+            "partOfSpeech": "verb",
+            "meaning": "đánh giá, định giá; ước lượng",
+            "examples": {
+                "example": "It's important to evaluate your competition when making a business plan.",
+                "meaning": "Đánh giá sức cạnh tranh của bạn là việc quan trọng khi lập một kế hoạch kinh doanh."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648039999/lessons/audio-600-word-toeic/evaluate_tt0osj.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 42,
+            "name": "gather",
+            "definition": "to come together, or bring people together",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/gather_wpit7l.jpg",
+            "phonetic": "/'gæðə/",
+            "partOfSpeech": "verb",
+            "meaning": "tập hợp, tụ thập, thu thập; kết luận, suy ra",
+            "examples": {
+                "example": "We gathered information for our plan from many sources.",
+                "meaning": "Chúng tôi thu thập thông tin cho bản kế hoạch của mình từ nhiều nguồn."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040005/lessons/audio-600-word-toeic/gather_ku3uwd.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 43,
+            "name": "offer",
+            "definition": "to say that you are willing to do something for somebody",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/offer_kfjfzb.jpg",
+            "phonetic": "/'ɔfə/",
+            "partOfSpeech": "noun, verb",
+            "meaning": "(n) đề xuất, đề nghị, chào mời, chào hàng, dạm, hỏi, ướm; (v) đề nghị",
+            "examples": {
+                "example": "Devon accepted our offer to write the business plan.",
+                "meaning": "Devon đã chuấp thuận đề nghị của chúng tôi để viết một bản kế hoạch kinh doanh."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040019/lessons/audio-600-word-toeic/offer_xxblsf.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 44,
+            "name": "primarily",
+            "definition": "mainly",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/primarily_di4zlk.jpg",
+            "phonetic": "/'praimərili/",
+            "partOfSpeech": "adverb",
+            "meaning": "trước hết, đầu tiên; chính, chủ yếu, quan trọng nhất",
+            "examples": {
+                "example": "The developers are thinking primarily of how to enter the South American market.",
+                "meaning": "Những nhà phát triển quan tâm nhất đến việc làm sao để xâm nhập thị trường Nam Mỹ."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040027/lessons/audio-600-word-toeic/primarily_bvli9u.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 45,
+            "name": "risk",
+            "definition": "the possibility of something bad happening at some time in the future",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/risk_lx9etu.jpg",
+            "phonetic": "/rɪsk/",
+            "partOfSpeech": "noun",
+            "meaning": "nguy cơ, sự nguy hiểm, sự rủi ro",
+            "examples": {
+                "example": "The primary risk for most start-up businesses is insufficient capital.",
+                "meaning": "Nguy cơ lớn nhất đối với hầu hết các cuộc khởi nghiệp là thiếu vốn."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040037/lessons/audio-600-word-toeic/risk_ox8vrl.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 46,
+            "name": "strategy",
+            "definition": "a plan that is intended to achieve a particular purpose",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/strategy_yj9gfv.jpg",
+            "phonetic": "/ˈstrætədʒi/",
+            "partOfSpeech": "noun",
+            "meaning": "chiến lược, sự vạch kế hoạch hành động",
+            "examples": {
+                "example": "A business plan is a strategy for running a business and avoiding problems.",
+                "meaning": "Một kế hoạch kinh doanh là một chiến lược để vận hành công việc và tránh các rắc rối."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040046/lessons/audio-600-word-toeic/strategy_mbek0b.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 47,
+            "name": "strong",
+            "definition": "having a lot of physical power",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/strong_g7qaef.gif",
+            "phonetic": "/strɔɳ/",
+            "partOfSpeech": "adjective",
+            "meaning": "khỏe, mạnh, tốt, bền, kiên cố; đanh thép, kiên quyết; sôi nổi, nhiệt tình...",
+            "examples": {
+                "example": "The professor made a strong argument for the value of a good business plan.",
+                "meaning": "Vị giáo sư đã gây ra một cuộc tranh luận sôi nổi về giá trị của một kế hoạch KD tốt."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040046/lessons/audio-600-word-toeic/strong_kkf3ir.mp3",
+            "lessonId": 4
+        },
+        {
+            "id": 48,
+            "name": "substitution",
+            "definition": "to take the place of somebody / something else",
+            "imageUrl": "https://res.cloudinary.com/chanhpham/image/upload/v1648433413/lessons/images-word/substitution_nwbpmp.jpg",
+            "phonetic": "/,sʌbsti'tju:ʃn/",
+            "partOfSpeech": "noun",
+            "meaning": "sự đổi, sự thay thế",
+            "examples": {
+                "example": "Your substitution of fake names for real ones makes the document seem insincere.",
+                "meaning": "Việc anh lấy tên giả thay cho tên thật khiến cho tài liệu có vẻ như không thành thật."
+            },
+            "audioUrl": "https://res.cloudinary.com/chanhpham/video/upload/v1648040047/lessons/audio-600-word-toeic/substitution_smvg1y.mp3",
+            "lessonId": 4
         }
     ]
 }
