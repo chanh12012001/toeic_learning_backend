@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "multer": "^1.4.4",
     "otp-generator": "^4.0.0",
     "scrape-yt": "^1.4.8",
-    "twilio": "^3.75.1"
+    "twilio": "^3.75.1",
+    "xlsx": "^0.18.5"
   }
 }

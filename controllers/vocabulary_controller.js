@@ -13,9 +13,7 @@ var functions = {
         })
             
         // find user from users using .find method        
-        res.send(arrayFound)
-        
-        
+        res.send(arrayFound)    
     }
 }
 module.exports = functions
