@@ -23,7 +23,7 @@ var functions = {
     },
 
     getAllQuestionsByPartOfExamId: (req, res, next) => {
-        var examId = req.headers['examid']; 
+        var examId = req.params.examid; 
         var part = req.headers['part']; 
         questionService.getAllQuestionsByPartOfExamId(examId, part, (error, results) => {
             if (error) {

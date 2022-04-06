@@ -7,6 +7,6 @@ router.post("/createQuestionsToeicList", upload.single("questions"), questionCon
 
 router.get("/getAllQuestionsByExamId", questionController.getAllQuestionsByExamId);
 
-router.get("/getAllQuestionsByPartOfExamId", questionController.getAllQuestionsByPartOfExamId);
+router.get("/getAllQuestionsByPartOfExamId/:examid", questionController.getAllQuestionsByPartOfExamId);
 
 module.exports = router 
