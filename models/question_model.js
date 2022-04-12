@@ -33,6 +33,21 @@ const QuestionSchema = new Schema({
   option4: {
     type: String,
   },
+  explainQuestion: {
+    type: String,
+  },
+  explain1: {
+    type: String,
+  },
+  explain2: {
+    type: String,
+  },
+  explain3: {
+    type: String,
+  },
+  explain4: {
+    type: String,
+  },
   correctAnswer: {
     type: String,
   },

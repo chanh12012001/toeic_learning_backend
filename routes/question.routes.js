@@ -9,4 +9,6 @@ router.get("/getAllQuestionsByExamId", questionController.getAllQuestionsByExamI
 
 router.get("/getAllQuestionsByPartOfExamId/:examid", questionController.getAllQuestionsByPartOfExamId);
 
+router.get("/getAllQuestionsByQuestionGroupByExamId/:examid", questionController.getAllQuestionsByQuestionGroupByExamId);
+
 module.exports = router 
