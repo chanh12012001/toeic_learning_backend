@@ -43,6 +43,16 @@ var functions = {
             return res.status(200).json(results);
         });
     },
+
+    getAllQuestionsByPart: (req, res, next) => {
+        var part = req.headers['part']; 
+        questionService.getAllQuestionsByPart(part, (error, results) => {
+            if (error) {
+                return res.status(500).json({error});
+            }
+            return res.status(200).json(results);
+        });
+    },
 }
 
 module.exports = functions 

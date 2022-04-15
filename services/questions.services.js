@@ -50,9 +50,19 @@ async function getAllQuestionsByQuestionGroupByExamId(examId, groupQuestion, cal
     })
 }
 
+async function getAllQuestionsByPart(part, callback) {
+    Question.find({ part: part})
+    .then((questions) => {
+        return callback(null, {questions})
+    })
+    .catch((error) => {
+        return callback(error)
+    })
+}
 module.exports = {
     createQuestionsToeicList,
     getAllQuestionsByExamId,
     getAllQuestionsByPartOfExamId,
     getAllQuestionsByQuestionGroupByExamId,
+    getAllQuestionsByPart,
 }
