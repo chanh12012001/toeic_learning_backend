@@ -37,18 +37,25 @@ async function createNewBlog(body, files, callback) {
     })
 }
 
-// async function deleteLectureType(params, callback) {
-//     LectureType.deleteOne({_id: params})
-//     .then((msg) => {
-//         return callback(null, {message: 'Thao tác thành công'})
-//     })
-//     .catch((error) => {
-//         return callback({message: 'Lỗi. Vui lòng thử lại!'})
-//     })
-// }
+async function deleteBlog(blogId, callback) {
+
+    await Blog.findOne({_id: blogId}).then((blog) => {
+        for (var img of blog.images) {
+            cloudinary.uploader.destroy(img.cloudinaryId)
+        }
+    })
+     
+    Blog.deleteOne({_id: blogId})
+    .then((msg) => {
+        return callback(null, {message: 'Thao tác thành công'})
+    })
+    .catch((error) => {
+        return callback({message: 'Lỗi. Vui lòng thử lại!'})
+    })
+}
 
 async function getAllBlogs(callback) {
-    Blog.find({})
+    Blog.find({}).sort({'createdAt': -1})
     .then((blogs) => {
         return callback(null, {blogs: blogs})
     })
@@ -60,4 +67,5 @@ async function getAllBlogs(callback) {
 module.exports = {
     createNewBlog,
     getAllBlogs,
+    deleteBlog,
 }

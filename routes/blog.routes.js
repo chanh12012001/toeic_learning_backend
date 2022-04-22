@@ -5,8 +5,8 @@ const router = express.Router()
 
 router.post("/createNewBlog", upload.array("image"), blogController.createNewBlog);
 
-// router.delete("/deleteLectureType/:id", lectureTypeController.deleteLectureType);
-
 router.get("/getAllBlogs", blogController.getAllBlogs);
+
+router.delete("/deleteBlog/:id", blogController.deleteBlog);
 
 module.exports = router 

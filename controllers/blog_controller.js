@@ -13,15 +13,15 @@ var functions = {
         });
     },
 
-    // deleteLectureType: (req, res, next) => {
-    //     var typeId = req.params.id; 
-    //     lectureTypeService.deleteLectureType(typeId, (error, results) => {
-    //         if (error) {
-    //             return res.status(500).json(error);
-    //         }
-    //         return res.status(200).json(results);
-    //     });
-    // },
+    deleteBlog: (req, res, next) => {
+        var blogId = req.params.id; 
+        blogService.deleteBlog(blogId, (error, results) => {
+            if (error) {
+                return res.status(500).json(error);
+            }
+            return res.status(200).json(results);
+        });
+    },
 
     getAllBlogs: (req, res, next) => {
         blogService.getAllBlogs((error, results) => {
