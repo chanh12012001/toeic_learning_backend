@@ -11,6 +11,7 @@ const routesQA = require('./routes/qa.routes')
 const routesExam = require('./routes/exam.routes')
 const routesBlog = require('./routes/blog.routes')
 const routesTermsOfUse = require('./routes/terms_of_use.routes')
+const routesFeedback = require('./routes/feedback.routes')
 
 const app = express()
 
@@ -41,5 +42,7 @@ app.use('/', routesExam)
 app.use('/', routesBlog)
 
 app.use('/', routesTermsOfUse)
+
+app.use('/', routesFeedback)
 
 module.exports = app 
