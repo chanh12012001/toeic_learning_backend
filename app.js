@@ -9,6 +9,7 @@ const routesVocabulary = require('./routes/vocabulary.routes')
 const routesQuestionsToeic = require('./routes/question.routes')
 const routesExam = require('./routes/exam.routes')
 const routesBlog = require('./routes/blog.routes')
+const routesTermsOfUse = require('./routes/terms_of_use.routes')
 
 const app = express()
 
@@ -35,5 +36,7 @@ app.use('/', routesQuestionsToeic)
 app.use('/', routesExam)
 
 app.use('/', routesBlog)
+
+app.use('/', routesTermsOfUse)
 
 module.exports = app 
