@@ -3,7 +3,7 @@ var functions = {
     createQuestionsQAList: (req, res, next) => {
         var file = req.file.path
         
-        qaService.createQuestionsToeicList(file, (error, results) => {
+        qaService.createQuestionsQAList(file, (error, results) => {
             if (error) {
                 return res.status(500).json({error});
             }
@@ -11,9 +11,18 @@ var functions = {
         })
     }, 
     getAllQuestionQA: (req, res, next) => {
-        var file = req.file.path
-        
-        qaService.getAllQuestionQA(file, (error, results) => {
+    
+        qaService.getAllQuestionQA( (error, results) => {
+            if (error) {
+                return res.status(500).json({error});
+            }
+            return res.status(200).json(results);
+        })
+    }, 
+    getAllQAByKeyWord: (req, res, next) => {
+    
+        var keyword = req.headers['keyword']; 
+        qaService.getAllQAByKeyWord(keyword, (error, results) => {
             if (error) {
                 return res.status(500).json({error});
             }

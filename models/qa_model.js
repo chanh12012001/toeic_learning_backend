@@ -22,6 +22,6 @@ QASchema.set("toJSON", {
   },
 });
 
-const QA = mongoose.model("qa", QASchema);
+const QA = mongoose.model("qas", QASchema);
 
 module.exports = QA;

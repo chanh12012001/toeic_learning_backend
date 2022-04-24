@@ -21,10 +21,20 @@ async function createQuestionsQAList(file, callback) {
     })
 }
 
-async function getAllQuestionQA(params,callback) {
-    QA.find({}).sort({question: params})
-    .then((qa) => {
-        return callback(null, {qa})
+async function getAllQuestionQA(callback) {
+    QA.find({}).sort({'qas': 1})
+    .then((qas) => {
+        return callback(null, {qas})
+    })
+    .catch((error) => {
+        return callback(error)
+    })
+}
+
+async function getAllQAByKeyWord(params, callback) {
+    QA.find({keyword: params})
+    .then((qas) => {
+        return callback(null, {qas})
     })
     .catch((error) => {
         return callback(error)
@@ -33,4 +43,5 @@ async function getAllQuestionQA(params,callback) {
 module.exports = {
     createQuestionsQAList,
     getAllQuestionQA,
+    getAllQAByKeyWord,
 }
