@@ -7,6 +7,7 @@ const routesVideoInfo = require('./routes/video_info.routes')
 const routesLesson = require('./routes/lesson.routes')
 const routesVocabulary = require('./routes/vocabulary.routes')
 const routesQuestionsToeic = require('./routes/question.routes')
+const routesQA = require('./routes/qa.routes')
 const routesExam = require('./routes/exam.routes')
 const routesBlog = require('./routes/blog.routes')
 const routesTermsOfUse = require('./routes/terms_of_use.routes')
@@ -32,6 +33,8 @@ app.use('/', routesLesson)
 app.use('/', routesVocabulary)
 
 app.use('/', routesQuestionsToeic)
+
+app.use('/', routesQA)
 
 app.use('/', routesExam)
 
