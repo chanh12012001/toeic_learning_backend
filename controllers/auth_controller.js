@@ -74,6 +74,18 @@ var functions = {
 
     getInfo: (req, res, next) => {  
         return res.send({id: req.id})
+    },
+
+    updateAvatar: (req, res, next) => {
+        var {userId} = req.body; 
+        var file = req.file
+        userService.updateAvatar(userId, file, (error, results) => {
+            if (error) {
+                return res.status(500).json(error);
+            }
+            return res.status(200).json(results);
+        });
+       
     }
 }
 

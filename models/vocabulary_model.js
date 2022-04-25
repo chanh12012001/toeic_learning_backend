@@ -20,6 +20,9 @@ const VocabularySchema = new Schema({
   partOfSpeech: {
     type: String,
   },
+  meaning: {
+    type: String,
+  },
   examples: {
     example: {
         type: String,

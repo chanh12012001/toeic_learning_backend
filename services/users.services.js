@@ -3,9 +3,11 @@ const SmsConfig = require('../config/sms.config')
 const bcrypt = require('bcryptjs')
 const tokenController = require('../controllers/verify_token')
 const bcryptjs = require("bcryptjs");
+const cloudinary = require("../config/cloudinary.config")
 
 const otpGenerator = require("otp-generator");
 const crypto = require("crypto");
+const { update } = require('../models/user_model');
 const key = "verysecretkey"; // Key for cryptograpy. Keep it secret
 
 const client = require('twilio')(SmsConfig.ACCOUNT_SID, SmsConfig.AUTH_TOKEN);
@@ -164,6 +166,24 @@ async function createNewOTP(params, callback) {
     return callback(null, {message: 'Success'});
     }
   }
+
+  async function updateAvatar(userId, file, callback) {   
+  
+    const result = await cloudinary.uploader.upload(file.path, {folder: "avatar"})
+
+    let user = {
+        avatarUrl: result.secure_url,
+        cloudinaryId: result.public_id,   
+    }
+
+    User.findByIdAndUpdate(userId, user, {new: true})
+    .then((user) => {
+        return callback(null, {user})
+    })
+    .catch((error) => {
+        return callback(error)
+    }) 
+}
   
 module.exports = {
     createNewOTP,
@@ -171,4 +191,5 @@ module.exports = {
     register,
     login,
     forgotPassword,
+    updateAvatar,
 }
