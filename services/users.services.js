@@ -168,7 +168,11 @@ async function createNewOTP(params, callback) {
   }
 
   async function updateAvatar(userId, file, callback) {   
-  
+  User.findOne({_id: userId}).then((user) => {
+      if (user.cloudinaryId != "") {
+        cloudinary.uploader.destroy(user.cloudinaryId)
+      }
+  })
     const result = await cloudinary.uploader.upload(file.path, {folder: "avatar"})
 
     let user = {
