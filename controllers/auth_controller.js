@@ -86,6 +86,17 @@ var functions = {
             return res.status(200).json(results);
         });
        
+    },
+
+    updateUserInfo: (req, res, next) => {
+        var body = req.body; 
+        userService.updateUserInfo(body, (error, results) => {
+            if (error) {
+                return res.status(500).json(error);
+            }
+            return res.status(200).json(results);
+        });
+       
     }
 }
 

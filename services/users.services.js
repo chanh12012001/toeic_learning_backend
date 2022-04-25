@@ -185,6 +185,23 @@ async function createNewOTP(params, callback) {
     }) 
 }
   
+async function updateUserInfo(body, callback) {   
+  
+    let user = {
+        name: body.name,
+        sex: body.sex,
+        email: body.email   
+    }
+
+    User.findByIdAndUpdate(body.userId, user, {new: true})
+    .then((user) => {
+        return callback(null, {user})
+    })
+    .catch((error) => {
+        return callback(error)
+    }) 
+}
+
 module.exports = {
     createNewOTP,
     verifyOTP,
@@ -192,4 +209,5 @@ module.exports = {
     login,
     forgotPassword,
     updateAvatar,
+    updateUserInfo,
 }

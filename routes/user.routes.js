@@ -20,4 +20,6 @@ router.get('/get-info', Token.verifyToken ,authController.getInfo)
 
 router.put('/updateAvatar', upload.single("avatar") ,authController.updateAvatar)
 
+router.put('/updateUserInfo' ,authController.updateUserInfo)
+
 module.exports = router
