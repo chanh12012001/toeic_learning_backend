@@ -19,7 +19,9 @@ async function register(params, phoneNumber, callback) {
             sex: '',
             email: '',
             password: params.password,
-            authorization: 'customer'
+            authorization: 'customer',
+            avatarUrl: '',
+            cloudinaryId: '',
         })
         .then((data) => {
             const token = tokenController.generateAccessToken(data._id)
