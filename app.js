@@ -12,6 +12,7 @@ const routesExam = require('./routes/exam.routes')
 const routesBlog = require('./routes/blog.routes')
 const routesTermsOfUse = require('./routes/terms_of_use.routes')
 const routesFeedback = require('./routes/feedback.routes')
+const routesScore = require('./routes/score.routes')
 
 const app = express()
 
@@ -44,5 +45,7 @@ app.use('/', routesBlog)
 app.use('/', routesTermsOfUse)
 
 app.use('/', routesFeedback)
+
+app.use('/',routesScore)
 
 module.exports = app 
