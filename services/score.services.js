@@ -18,7 +18,7 @@ async function addNewScore(body, callback) {
     }) 
 }
 async function getScoreByExamIdAndPart(examId, part, callback) {
-    Score.find({examId: examId, part: part})
+    Score.find({examId: examId, part: part}).sort({'scoreRecord': -1})
     .then((scores) => {
         return callback(null, {scores})
     })
