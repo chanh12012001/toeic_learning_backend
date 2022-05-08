@@ -13,7 +13,7 @@ var functions = {
     },
 
     getScoreByExamIdAndPart: (req, res, next) => {
-        var examId = req.params.examId; 
+        var examId = req.params.examid; 
         var part = req.headers['part']; 
         scoreService.getScoreByExamIdAndPart(examId,part,(error, results) => {
             if (error) {
